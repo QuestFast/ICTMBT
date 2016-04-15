@@ -1,0 +1,8 @@
+mapping mapUniquenessConstraint 
+{
+ let T:
+ 			{
+	 			 Branch,BranchType,PerformanceIndicator,Country,
+	 			 CarModel,CarGroup,RentalDuration,ServiceDepot,Discount
+		     }
+}

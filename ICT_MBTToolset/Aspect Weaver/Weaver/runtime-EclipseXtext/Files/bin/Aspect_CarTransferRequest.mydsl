@@ -1,0 +1,14 @@
+aspect CarTransferRequest
+{
+	import_mapping mapCarTransferRequest
+	pointcut IntroduceNewConstraint 
+	context P
+	intro:
+	post IntroduceNewConstraint
+	"self.oclAsType(MoveCars).^apply() and self.Q.carsAvailable@pre-> intersection(self.otherBranch.car-> select(c|c.oclIsKindOf(BeingTransferredCar) and
+	c.oclAsType(BeingTransferredCar).destination= self.W))->size()=movedCars"
+}
+
+
+
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="GUI.AllWizards"/>
+<fullyQualifiedTypeName name="org.eclipse.jface.wizard.WizardDialog"/>
+<fullyQualifiedTypeName name="state.machine.Controller_SM"/>
+<fullyQualifiedTypeName name="org.eclipse.jface.wizard.IWizardPage"/>
+<fullyQualifiedTypeName name="org.eclipse.swt.graphics.Path"/>
+<fullyQualifiedTypeName name="org.eclipse.jface.resource.ImageDescriptor"/>
+<fullyQualifiedTypeName name="org.eclipse.core.runtime.Path"/>
+<fullyQualifiedTypeName name="org.eclipse.core.runtime.FileLocator"/>
+<fullyQualifiedTypeName name="org.eclipse.core.runtime.Platform"/>
+<fullyQualifiedTypeName name="GUI.SecondPage"/>
+<fullyQualifiedTypeName name="org.eclipse.swt.events.SelectionAdapter"/>
+<fullyQualifiedTypeName name="java.net.URL"/>
+</qualifiedTypeNameHistroy>

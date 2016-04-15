@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Profile="http:///schemas/Profile/_JKtZsK-8EeWRDpfAbbYhPA/3" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/Profile/_JKtZsK-8EeWRDpfAbbYhPA/3 ../Profile/model.profile.uml#_JKvO4K-8EeWRDpfAbbYhPA">
+  <uml:Model xmi:id="_IkxXkLOMEeWt1IVNbVWyoQ" name="model">
+    <packagedElement xmi:type="uml:StateMachine" xmi:id="_IlX0gLOMEeWt1IVNbVWyoQ" name="StateMachine1">
+      <ownedRule xmi:type="uml:Constraint" xmi:id="_WPtLoLOOEeWt1IVNbVWyoQ" name="1">
+        <specification xmi:type="uml:LiteralString" xmi:id="_WPtysLOOEeWt1IVNbVWyoQ" value="&lt;&lt;Aspect>>name=&quot;MediaQuality&quot;,baseStateMachine=&quot;Saturn&quot;"/>
+      </ownedRule>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_xOFIgLOMEeWt1IVNbVWyoQ" name="after">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_xOFIgbOMEeWt1IVNbVWyoQ">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_GfrEYLrAEeWDdapNAvF0lQ" value="time"/>
+        </ownedParameter>
+      </ownedOperation>
+      <region xmi:type="uml:Region" xmi:id="_Ilg-cLOMEeWt1IVNbVWyoQ" name="Region1">
+        <transition xmi:type="uml:Transition" xmi:id="_c-tFILOMEeWt1IVNbVWyoQ" source="_aETJgLOMEeWt1IVNbVWyoQ" target="_WCBm4LOMEeWt1IVNbVWyoQ"/>
+        <transition xmi:type="uml:Transition" xmi:id="_kcRC4LOMEeWt1IVNbVWyoQ" name="AT1" source="_WCBm4LOMEeWt1IVNbVWyoQ" target="_WaH90LOMEeWt1IVNbVWyoQ">
+          <ownedRule xmi:type="uml:Constraint" xmi:id="_Yf2z4LOPEeWt1IVNbVWyoQ" name="4">
+            <specification xmi:type="uml:LiteralString" xmi:id="_Yf3a8LOPEeWt1IVNbVWyoQ" value="&lt;&lt;Introduction>>name=&quot;SelectedStatesToDegradedMode&quot;"/>
+          </ownedRule>
+        </transition>
+        <transition xmi:type="uml:Transition" xmi:id="_pOv6cLOMEeWt1IVNbVWyoQ" name="AT3" source="_WaH90LOMEeWt1IVNbVWyoQ" target="_WsbOwLOMEeWt1IVNbVWyoQ">
+          <ownedRule xmi:type="uml:Constraint" xmi:id="_JS41QLOhEeWt1IVNbVWyoQ" name="6">
+            <specification xmi:type="uml:LiteralString" xmi:id="_JS41QbOhEeWt1IVNbVWyoQ" value="&lt;&lt;Introduction>>name=&quot;DegradedModeToIdle&quot;"/>
+          </ownedRule>
+          <effect xmi:type="uml:OpaqueBehavior" xmi:id="_fmGvwLONEeWt1IVNbVWyoQ" name="DisconnectAll"/>
+          <trigger xmi:type="uml:Trigger" xmi:id="_zm3k0LOMEeWt1IVNbVWyoQ" event="_zb3OsLOMEeWt1IVNbVWyoQ"/>
+        </transition>
+        <transition xmi:type="uml:Transition" xmi:id="_qEczYLOMEeWt1IVNbVWyoQ" name="AT2" source="_WaH90LOMEeWt1IVNbVWyoQ" target="_WCBm4LOMEeWt1IVNbVWyoQ">
+          <ownedRule xmi:type="uml:Constraint" xmi:id="_RA9ZYLOPEeWt1IVNbVWyoQ" name="3">
+            <specification xmi:type="uml:LiteralString" xmi:id="_RA-AcLOPEeWt1IVNbVWyoQ" value="&lt;&lt;Introduction>>name=&quot;DegradedModeToSelectedStates&quot;"/>
+          </ownedRule>
+        </transition>
+        <subvertex xmi:type="uml:State" xmi:id="_WCBm4LOMEeWt1IVNbVWyoQ" name="SelectedStates">
+          <ownedRule xmi:type="uml:Constraint" xmi:id="_0Dp8kLOOEeWt1IVNbVWyoQ" name="2">
+            <specification xmi:type="uml:LiteralString" xmi:id="_0DqjoLOOEeWt1IVNbVWyoQ" value="&lt;&lt;Pointcut>>name=&quot;SelectStatesPointcut&quot;,type=SelectionType::Subset,selectionConstraint=&quot;Context uml::Vertex self.name&lt;>'Idle'&quot;"/>
+          </ownedRule>
+        </subvertex>
+        <subvertex xmi:type="uml:State" xmi:id="_WaH90LOMEeWt1IVNbVWyoQ" name="RecoveryMode">
+          <ownedRule xmi:type="uml:Constraint" xmi:id="_2czQwMHdEeWisfFAt5V8bQ" name="Constraint1">
+            <specification xmi:type="uml:LiteralString" xmi:id="_2dzWUMHdEeWisfFAt5V8bQ" value="&lt;&lt;Introduction>>name=&quot;DegradedModeToIdle&quot;"/>
+          </ownedRule>
+        </subvertex>
+        <subvertex xmi:type="uml:State" xmi:id="_WsbOwLOMEeWt1IVNbVWyoQ" name="Idle">
+          <ownedRule xmi:type="uml:Constraint" xmi:id="_EBX9gLOPEeWt1IVNbVWyoQ" name="5">
+            <specification xmi:type="uml:LiteralString" xmi:id="_EBYkkLOPEeWt1IVNbVWyoQ" value="&lt;&lt;Pointcut>>name=&quot;SelectStatesPointcut&quot;,type=SelectionType::One,selectionConstraint=&quot;Context uml::Vertex self.name='Idle'&quot;"/>
+          </ownedRule>
+        </subvertex>
+        <subvertex xmi:type="uml:Pseudostate" xmi:id="_aETJgLOMEeWt1IVNbVWyoQ" name="Initial1"/>
+      </region>
+    </packagedElement>
+    <packagedElement xmi:type="uml:CallEvent" xmi:id="_zb3OsLOMEeWt1IVNbVWyoQ" operation="_xOFIgLOMEeWt1IVNbVWyoQ"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_kvd2QLONEeWt1IVNbVWyoQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kv-zoLONEeWt1IVNbVWyoQ" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kv-zobONEeWt1IVNbVWyoQ" key="Version" value="0.0.4"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kv-zorONEeWt1IVNbVWyoQ" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kv-zo7ONEeWt1IVNbVWyoQ" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kv-zpLONEeWt1IVNbVWyoQ" key="Date" value="2015-12-31"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kv-zpbONEeWt1IVNbVWyoQ" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kvvjELONEeWt1IVNbVWyoQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="../Profile/model.profile.uml#_JKvO4K-8EeWRDpfAbbYhPA"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="../Profile/model.profile.uml#_FB9QQK16EeWCvpWBgsf40A"/>
+    </profileApplication>
+  </uml:Model>
+  <Profile:Pointcut xmi:id="_m4f_ULONEeWt1IVNbVWyoQ" base_State="_WCBm4LOMEeWt1IVNbVWyoQ"/>
+  <Profile:Introduction xmi:id="_oERO4LONEeWt1IVNbVWyoQ" base_Transition="_kcRC4LOMEeWt1IVNbVWyoQ"/>
+  <Profile:Introduction xmi:id="_pkrRsLONEeWt1IVNbVWyoQ" base_Transition="_qEczYLOMEeWt1IVNbVWyoQ"/>
+  <Profile:Pointcut xmi:id="_tnJooLONEeWt1IVNbVWyoQ" base_State="_WsbOwLOMEeWt1IVNbVWyoQ"/>
+  <Profile:Introduction xmi:id="_isQWcLOPEeWt1IVNbVWyoQ" base_State="_WaH90LOMEeWt1IVNbVWyoQ"/>
+  <Profile:Introduction xmi:id="_LCgYwLOhEeWt1IVNbVWyoQ" base_Transition="_pOv6cLOMEeWt1IVNbVWyoQ"/>
+  <Profile:Aspect xmi:id="_n8FhoL2xEeWB5q7eYvojvQ" base_StateMachine="_IlX0gLOMEeWt1IVNbVWyoQ"/>
+</xmi:XMI>

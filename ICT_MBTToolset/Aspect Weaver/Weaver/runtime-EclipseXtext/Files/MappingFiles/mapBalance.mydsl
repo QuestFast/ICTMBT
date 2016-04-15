@@ -1,0 +1,7 @@
+mapping mapBalance
+{
+	let T: 
+	{
+		BasicAccount,LoyaltyAccount
+	}
+}

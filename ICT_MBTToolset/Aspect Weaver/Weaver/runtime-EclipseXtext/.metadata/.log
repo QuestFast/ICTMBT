@@ -1,0 +1,1253 @@
+!SESSION 2016-03-19 12:28:46.037 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data H:\8 semester\Fyp2\whole fyp\Testing FYP/../runtime-EclipseXtext -dev file:H:/8 semester/Fyp2/whole fyp/Testing FYP/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-19 12:28:55.945
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saqib'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-03-19 12:30:14.041 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data H:\8 semester\Fyp2\whole fyp\Testing FYP/../runtime-EclipseXtext -dev file:H:/8 semester/Fyp2/whole fyp/Testing FYP/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-19 12:30:23.902
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saqib'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-03-19 12:30:34.745 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data H:\8 semester\Fyp2\whole fyp\Testing FYP/../runtime-EclipseXtext -dev file:H:/8 semester/Fyp2/whole fyp/Testing FYP/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-19 12:30:44.824
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saqib'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-03-19 12:32:41.983 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data H:\8 semester\Fyp2\whole fyp\Testing FYP/../runtime-EclipseXtext -dev file:H:/8 semester/Fyp2/whole fyp/Testing FYP/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.jdt.core 4 4 2016-03-19 12:32:51.672
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: Files
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource already exists on disk: '/Files/bin/constraint_Teacher_Student_Course_Seminar.txt'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.copy(FileSystemResourceManager.java:305)
+	at org.eclipse.core.internal.resources.Resource.copy(Resource.java:566)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.copyResource(AbstractImageBuilder.java:382)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder$3.visit(BatchImageBuilder.java:223)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.copyExtraResourcesBack(BatchImageBuilder.java:192)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:120)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:175)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2016-03-19 12:32:51.688
+!MESSAGE Resource already exists on disk: '/Files/bin/constraint_Teacher_Student_Course_Seminar.txt'.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-19 12:32:52.156
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saqib'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jdt.core 4 4 2016-03-19 12:33:32.264
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: Files
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource already exists on disk: '/Files/bin/mapExistingCar.mydsl'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.copy(FileSystemResourceManager.java:305)
+	at org.eclipse.core.internal.resources.Resource.copy(Resource.java:566)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.copyResource(AbstractImageBuilder.java:382)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder$3.visit(BatchImageBuilder.java:223)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.copyExtraResourcesBack(BatchImageBuilder.java:192)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:120)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:180)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2016-03-19 12:33:32.264
+!MESSAGE Resource already exists on disk: '/Files/bin/mapExistingCar.mydsl'.
+!SESSION 2016-03-19 12:35:55.177 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data H:\8 semester\Fyp2\whole fyp\Testing FYP/../runtime-EclipseXtext -dev file:H:/8 semester/Fyp2/whole fyp/Testing FYP/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-19 12:36:05.990
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saqib'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-03-19 12:37:11.051 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data H:\8 semester\Fyp2\whole fyp\Testing FYP/../runtime-EclipseXtext -dev file:H:/8 semester/Fyp2/whole fyp/Testing FYP/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-19 12:37:21.583
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saqib'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-03-19 12:39:24.888 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data H:\8 semester\Fyp2\whole fyp\Testing FYP/../runtime-EclipseXtext -dev file:H:/8 semester/Fyp2/whole fyp/Testing FYP/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-19 12:39:35.404
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saqib'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-03-19 12:40:35.440 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data H:\8 semester\Fyp2\whole fyp\Testing FYP/../runtime-EclipseXtext -dev file:H:/8 semester/Fyp2/whole fyp/Testing FYP/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-19 12:40:45.878
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saqib'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-03-19 12:56:29.399 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data H:\8 semester\Fyp2\whole fyp\Testing FYP/../runtime-EclipseXtext -dev file:H:/8 semester/Fyp2/whole fyp/Testing FYP/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-19 12:56:39.213
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saqib'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jdt.core 4 4 2016-03-19 12:57:16.825
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: Files
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource already exists on disk: '/Files/bin/mapExistingCar.mydsl'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.copy(FileSystemResourceManager.java:305)
+	at org.eclipse.core.internal.resources.Resource.copy(Resource.java:566)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.copyResource(AbstractImageBuilder.java:382)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder$3.visit(BatchImageBuilder.java:223)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.copyExtraResourcesBack(BatchImageBuilder.java:192)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:120)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:180)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2016-03-19 12:57:16.825
+!MESSAGE Resource already exists on disk: '/Files/bin/mapExistingCar.mydsl'.
+
+!ENTRY org.eclipse.jdt.core 4 4 2016-03-19 12:57:36.075
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: Files
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource already exists on disk: '/Files/bin/mapExistingCar.mydsl'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.copy(FileSystemResourceManager.java:305)
+	at org.eclipse.core.internal.resources.Resource.copy(Resource.java:566)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.copyResource(AbstractImageBuilder.java:382)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder$3.visit(BatchImageBuilder.java:223)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.copyExtraResourcesBack(BatchImageBuilder.java:192)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:120)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:180)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2016-03-19 12:57:36.075
+!MESSAGE Resource already exists on disk: '/Files/bin/mapExistingCar.mydsl'.
+
+!ENTRY org.eclipse.jdt.core 4 4 2016-03-19 12:57:49.008
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: Files
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource already exists on disk: '/Files/bin/mapExistingCar.mydsl'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.copy(FileSystemResourceManager.java:305)
+	at org.eclipse.core.internal.resources.Resource.copy(Resource.java:566)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.copyResource(AbstractImageBuilder.java:382)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder$3.visit(BatchImageBuilder.java:223)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.copyExtraResourcesBack(BatchImageBuilder.java:192)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:120)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:180)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2016-03-19 12:57:49.008
+!MESSAGE Resource already exists on disk: '/Files/bin/mapExistingCar.mydsl'.
+
+!ENTRY org.eclipse.jdt.core 4 4 2016-03-19 12:58:03.266
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: Files
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource already exists on disk: '/Files/bin/mapExistingCar.mydsl'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.copy(FileSystemResourceManager.java:305)
+	at org.eclipse.core.internal.resources.Resource.copy(Resource.java:566)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.copyResource(AbstractImageBuilder.java:382)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder$3.visit(BatchImageBuilder.java:223)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.copyExtraResourcesBack(BatchImageBuilder.java:192)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:120)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:180)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2016-03-19 12:58:03.266
+!MESSAGE Resource already exists on disk: '/Files/bin/mapExistingCar.mydsl'.
+
+!ENTRY org.eclipse.jdt.core 4 4 2016-03-19 12:58:09.319
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: Files
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource already exists on disk: '/Files/bin/mapExistingCar.mydsl'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.copy(FileSystemResourceManager.java:305)
+	at org.eclipse.core.internal.resources.Resource.copy(Resource.java:566)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.copyResource(AbstractImageBuilder.java:382)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder$3.visit(BatchImageBuilder.java:223)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.copyExtraResourcesBack(BatchImageBuilder.java:192)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:120)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:180)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2016-03-19 12:58:09.334
+!MESSAGE Resource already exists on disk: '/Files/bin/mapExistingCar.mydsl'.
+!SESSION 2016-03-19 13:00:46.223 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data H:\8 semester\Fyp2\whole fyp\Testing FYP/../runtime-EclipseXtext -dev file:H:/8 semester/Fyp2/whole fyp/Testing FYP/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-19 13:00:56.240
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saqib'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-03-19 13:04:12.350 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data H:\8 semester\Fyp2\whole fyp\Testing FYP/../runtime-EclipseXtext -dev file:H:/8 semester/Fyp2/whole fyp/Testing FYP/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-19 13:04:22.929
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saqib'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-03-19 13:06:24.394 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data H:\8 semester\Fyp2\whole fyp\Testing FYP/../runtime-EclipseXtext -dev file:H:/8 semester/Fyp2/whole fyp/Testing FYP/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-19 13:06:34.333
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saqib'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jdt.core 4 4 2016-03-19 13:06:43.849
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: Files
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource already exists on disk: '/Files/bin/mapExistingCar.mydsl'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.copy(FileSystemResourceManager.java:305)
+	at org.eclipse.core.internal.resources.Resource.copy(Resource.java:566)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.copyResource(AbstractImageBuilder.java:382)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder$3.visit(BatchImageBuilder.java:223)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.copyExtraResourcesBack(BatchImageBuilder.java:192)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:120)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:180)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2016-03-19 13:06:43.849
+!MESSAGE Resource already exists on disk: '/Files/bin/mapExistingCar.mydsl'.
+
+!ENTRY org.eclipse.jdt.core 4 4 2016-03-19 13:07:30.384
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: Files
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource already exists on disk: '/Files/bin/mapExistingCar.mydsl'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.copy(FileSystemResourceManager.java:305)
+	at org.eclipse.core.internal.resources.Resource.copy(Resource.java:566)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.copyResource(AbstractImageBuilder.java:382)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder$3.visit(BatchImageBuilder.java:223)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.copyExtraResourcesBack(BatchImageBuilder.java:192)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:120)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:180)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2016-03-19 13:07:30.384
+!MESSAGE Resource already exists on disk: '/Files/bin/mapExistingCar.mydsl'.
+
+!ENTRY org.eclipse.jdt.core 4 4 2016-03-19 13:07:39.245
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: Files
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource already exists on disk: '/Files/bin/mapExistingCar.mydsl'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.copy(FileSystemResourceManager.java:305)
+	at org.eclipse.core.internal.resources.Resource.copy(Resource.java:566)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.copyResource(AbstractImageBuilder.java:382)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder$3.visit(BatchImageBuilder.java:223)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.copyExtraResourcesBack(BatchImageBuilder.java:192)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:120)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:180)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2016-03-19 13:07:39.245
+!MESSAGE Resource already exists on disk: '/Files/bin/mapExistingCar.mydsl'.
+
+!ENTRY org.eclipse.jdt.core 4 4 2016-03-19 13:08:09.259
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: Files
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource already exists on disk: '/Files/bin/mapExistingCar.mydsl'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.copy(FileSystemResourceManager.java:305)
+	at org.eclipse.core.internal.resources.Resource.copy(Resource.java:566)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.copyResource(AbstractImageBuilder.java:382)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder$3.visit(BatchImageBuilder.java:223)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.copyExtraResourcesBack(BatchImageBuilder.java:192)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:120)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:180)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2016-03-19 13:08:09.259
+!MESSAGE Resource already exists on disk: '/Files/bin/mapExistingCar.mydsl'.
+
+!ENTRY org.eclipse.jdt.core 4 4 2016-03-19 15:01:17.363
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: Files
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource already exists on disk: '/Files/bin/mapExistingCar.mydsl'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.copy(FileSystemResourceManager.java:305)
+	at org.eclipse.core.internal.resources.Resource.copy(Resource.java:566)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.copyResource(AbstractImageBuilder.java:382)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder$3.visit(BatchImageBuilder.java:223)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.copyExtraResourcesBack(BatchImageBuilder.java:192)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:120)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:180)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2016-03-19 15:01:17.363
+!MESSAGE Resource already exists on disk: '/Files/bin/mapExistingCar.mydsl'.
+!SESSION 2016-03-21 19:30:37.562 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data H:\8 semester\Fyp2\whole fyp\Testing FYP/../runtime-EclipseXtext -dev file:H:/8 semester/Fyp2/whole fyp/Testing FYP/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-03-21 19:30:39.983
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-21 19:30:48.605
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saqib'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-03-21 22:18:06.126 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data H:\8 semester\Fyp2\whole fyp\Testing FYP/../runtime-EclipseXtext -dev file:H:/8 semester/Fyp2/whole fyp/Testing FYP/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-21 22:18:16.705
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saqib'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.apache.log4j 2 0 2016-03-21 22:54:23.759
+!MESSAGE org.eclipse.xtext.ui.editor.contentassist.AbstractJavaBasedContentProposalProvider  - Error in polymorphic dispatcher : null
+
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.xtext.scoping.impl.ImportedNamespaceAwareLocalScopeProvider.getResourceScope(ImportedNamespaceAwareLocalScopeProvider.java:96)
+	at org.eclipse.xtext.scoping.impl.ImportedNamespaceAwareLocalScopeProvider.getScope(ImportedNamespaceAwareLocalScopeProvider.java:90)
+	at org.eclipse.xtext.scoping.impl.ImportedNamespaceAwareLocalScopeProvider.getScope(ImportedNamespaceAwareLocalScopeProvider.java:88)
+	at org.eclipse.xtext.scoping.impl.AbstractDeclarativeScopeProvider.delegateGetScope(AbstractDeclarativeScopeProvider.java:72)
+	at org.eclipse.xtext.scoping.impl.AbstractDeclarativeScopeProvider.getScope(AbstractDeclarativeScopeProvider.java:104)
+	at org.eclipse.xtext.ui.editor.contentassist.AbstractJavaBasedContentProposalProvider$ReferenceProposalCreator.lookupCrossReference(AbstractJavaBasedContentProposalProvider.java:132)
+	at org.eclipse.xtext.ui.editor.contentassist.AbstractJavaBasedContentProposalProvider.lookupCrossReference(AbstractJavaBasedContentProposalProvider.java:252)
+	at org.eclipse.xtext.ui.editor.contentassist.AbstractJavaBasedContentProposalProvider.lookupCrossReference(AbstractJavaBasedContentProposalProvider.java:246)
+	at org.eclipse.xtext.ui.editor.contentassist.AbstractJavaBasedContentProposalProvider.lookupCrossReference(AbstractJavaBasedContentProposalProvider.java:225)
+	at org.eclipse.xtext.ui.editor.contentassist.AbstractJavaBasedContentProposalProvider.lookupCrossReference(AbstractJavaBasedContentProposalProvider.java:210)
+	at org.xtext.example.mydsl.ui.contentassist.AbstractMyDslProposalProvider.completeMapping_Declaration_Reference_mappingname(AbstractMyDslProposalProvider.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:296)
+	at org.eclipse.xtext.ui.editor.contentassist.AbstractJavaBasedContentProposalProvider.invokeMethod(AbstractJavaBasedContentProposalProvider.java:291)
+	at org.eclipse.xtext.ui.editor.contentassist.AbstractJavaBasedContentProposalProvider.completeAssignment(AbstractJavaBasedContentProposalProvider.java:205)
+	at org.eclipse.xtext.ui.editor.contentassist.AbstractContentProposalProvider$DefaultContentAssistProcessorSwitch.caseAssignment(AbstractContentProposalProvider.java:66)
+	at org.eclipse.xtext.ui.editor.contentassist.AbstractContentProposalProvider$DefaultContentAssistProcessorSwitch.caseAssignment(AbstractContentProposalProvider.java:1)
+	at org.eclipse.xtext.util.XtextSwitch.doSwitch(XtextSwitch.java:147)
+	at org.eclipse.emf.ecore.util.Switch.doSwitch(Switch.java:53)
+	at org.eclipse.emf.ecore.util.Switch.doSwitch(Switch.java:69)
+	at org.eclipse.xtext.ui.editor.contentassist.AbstractContentProposalProvider$DefaultContentAssistProcessorSwitch.accept(AbstractContentProposalProvider.java:72)
+	at org.eclipse.xtext.ui.editor.contentassist.AbstractContentProposalProvider.createProposals(AbstractContentProposalProvider.java:110)
+	at org.eclipse.xtext.ui.editor.contentassist.AbstractJavaBasedContentProposalProvider.createProposals(AbstractJavaBasedContentProposalProvider.java:266)
+	at org.eclipse.xtext.ui.editor.contentassist.CompletionProposalComputer.exec(CompletionProposalComputer.java:52)
+	at org.eclipse.xtext.ui.editor.contentassist.CompletionProposalComputer.exec(CompletionProposalComputer.java:1)
+	at org.eclipse.xtext.resource.OutdatedStateManager.exec(OutdatedStateManager.java:121)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument$XtextDocumentLocker.internalReadOnly(XtextDocument.java:520)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument$XtextDocumentLocker.priorityReadOnly(XtextDocument.java:485)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument.priorityReadOnly(XtextDocument.java:142)
+	at org.eclipse.xtext.ui.editor.contentassist.XtextContentAssistProcessor.computeCompletionProposals(XtextContentAssistProcessor.java:69)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$5.run(ContentAssistant.java:1904)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.computeCompletionProposals(ContentAssistant.java:1902)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.computeProposals(CompletionProposalPopup.java:573)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.access$16(CompletionProposalPopup.java:570)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup$2.run(CompletionProposalPopup.java:505)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.showProposals(CompletionProposalPopup.java:499)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.showPossibleCompletions(ContentAssistant.java:1720)
+	at org.eclipse.jface.text.source.SourceViewer.doOperation(SourceViewer.java:932)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.doOperation(ProjectionViewer.java:1501)
+	at org.eclipse.ui.texteditor.ContentAssistAction$1.run(ContentAssistAction.java:82)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.texteditor.ContentAssistAction.run(ContentAssistAction.java:80)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:519)
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:122)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:90)
+	at sun.reflect.GeneratedMethodAccessor61.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:247)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:229)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:149)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:499)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:210)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:286)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:507)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:558)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:378)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.access$0(KeyBindingDispatcher.java:324)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:86)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1262)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1060)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1085)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1070)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1112)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1108)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1529)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4722)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:343)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4610)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:339)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5023)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2549)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3759)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+!SESSION 2016-03-21 22:56:37.954 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data H:\8 semester\Fyp2\whole fyp\Testing FYP/../runtime-EclipseXtext -dev file:H:/8 semester/Fyp2/whole fyp/Testing FYP/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-03-21 22:56:40.200
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-21 22:56:45.241
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saqib'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-03-21 23:38:09.882 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data H:\8 semester\Fyp2\whole fyp\Testing FYP/../runtime-EclipseXtext -dev file:H:/8 semester/Fyp2/whole fyp/Testing FYP/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-21 23:38:17.014
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saqib'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-03-22 00:59:10.715 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data H:\8 semester\Fyp2\whole fyp\Testing FYP/../runtime-EclipseXtext -dev file:H:/8 semester/Fyp2/whole fyp/Testing FYP/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-22 00:59:18.610
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saqib'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-03-22 01:17:59.578 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data H:\8 semester\Fyp2\whole fyp\Testing FYP/../runtime-EclipseXtext -dev file:H:/8 semester/Fyp2/whole fyp/Testing FYP/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-22 01:18:07.250
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saqib'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-03-22 01:28:54.669 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data H:\8 semester\Fyp2\whole fyp\Testing FYP/../runtime-EclipseXtext -dev file:H:/8 semester/Fyp2/whole fyp/Testing FYP/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-22 01:29:02.740
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saqib'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-03-22 01:29:26.081 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data H:\8 semester\Fyp2\whole fyp\Testing FYP/../runtime-EclipseXtext -dev file:H:/8 semester/Fyp2/whole fyp/Testing FYP/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-22 01:29:33.761
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saqib'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-03-22 01:40:11.841 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data H:\8 semester\Fyp2\whole fyp\Testing FYP/../runtime-EclipseXtext -dev file:H:/8 semester/Fyp2/whole fyp/Testing FYP/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-22 01:40:19.156
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saqib'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-03-22 01:46:13.431 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data H:\8 semester\Fyp2\whole fyp\Testing FYP/../runtime-EclipseXtext -dev file:H:/8 semester/Fyp2/whole fyp/Testing FYP/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-22 01:46:20.779
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saqib'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-03-22 09:36:13.758 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data H:\8 semester\Fyp2\whole fyp\Testing FYP/../runtime-EclipseXtext -dev file:H:/8 semester/Fyp2/whole fyp/Testing FYP/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-22 09:36:25.382
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saqib'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-03-22 10:23:13.412 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data H:\8 semester\Fyp2\whole fyp\Testing FYP/../runtime-EclipseXtext -dev file:H:/8 semester/Fyp2/whole fyp/Testing FYP/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-22 10:23:20.933
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saqib'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-03-22 10:27:43.154 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data H:\8 semester\Fyp2\whole fyp\Testing FYP/../runtime-EclipseXtext -dev file:H:/8 semester/Fyp2/whole fyp/Testing FYP/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-22 10:27:50.332
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saqib'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-03-22 10:32:17.890 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data H:\8 semester\Fyp2\whole fyp\Testing FYP/../runtime-EclipseXtext -dev file:H:/8 semester/Fyp2/whole fyp/Testing FYP/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-22 10:32:25.552
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saqib'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-03-22 10:40:44.334 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data H:\8 semester\Fyp2\whole fyp\Testing FYP/../runtime-EclipseXtext -dev file:H:/8 semester/Fyp2/whole fyp/Testing FYP/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-22 10:40:51.606
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saqib'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-03-22 10:43:18.906 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data H:\8 semester\Fyp2\whole fyp\Testing FYP/../runtime-EclipseXtext -dev file:H:/8 semester/Fyp2/whole fyp/Testing FYP/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-22 10:43:26.427
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saqib'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-03-22 10:46:12.352 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data H:\8 semester\Fyp2\whole fyp\Testing FYP/../runtime-EclipseXtext -dev file:H:/8 semester/Fyp2/whole fyp/Testing FYP/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-22 10:46:20.092
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saqib'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-03-22 10:51:02.056 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data H:\8 semester\Fyp2\whole fyp\Testing FYP/../runtime-EclipseXtext -dev file:H:/8 semester/Fyp2/whole fyp/Testing FYP/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-22 10:51:09.203
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saqib'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-03-22 10:54:27.810 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data H:\8 semester\Fyp2\whole fyp\Testing FYP/../runtime-EclipseXtext -dev file:H:/8 semester/Fyp2/whole fyp/Testing FYP/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-22 10:54:35.378
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saqib'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-03-22 10:55:40.290 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data H:\8 semester\Fyp2\whole fyp\Testing FYP/../runtime-EclipseXtext -dev file:H:/8 semester/Fyp2/whole fyp/Testing FYP/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-22 10:55:47.484
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saqib'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-03-22 10:57:47.231 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data H:\8 semester\Fyp2\whole fyp\Testing FYP/../runtime-EclipseXtext -dev file:H:/8 semester/Fyp2/whole fyp/Testing FYP/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-22 10:57:54.503
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saqib'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-03-22 11:02:25.134 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data H:\8 semester\Fyp2\whole fyp\Testing FYP/../runtime-EclipseXtext -dev file:H:/8 semester/Fyp2/whole fyp/Testing FYP/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-22 11:02:32.421
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saqib'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-03-22 11:05:53.696 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data H:\8 semester\Fyp2\whole fyp\Testing FYP/../runtime-EclipseXtext -dev file:H:/8 semester/Fyp2/whole fyp/Testing FYP/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-22 11:06:00.812
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saqib'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-03-22 11:08:27.532 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data H:\8 semester\Fyp2\whole fyp\Testing FYP/../runtime-EclipseXtext -dev file:H:/8 semester/Fyp2/whole fyp/Testing FYP/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-22 11:08:34.648
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saqib'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-03-22 11:09:21.325 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data H:\8 semester\Fyp2\whole fyp\Testing FYP/../runtime-EclipseXtext -dev file:H:/8 semester/Fyp2/whole fyp/Testing FYP/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-22 11:09:28.862
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saqib'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-03-22 11:10:14.414 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data H:\8 semester\Fyp2\whole fyp\Testing FYP/../runtime-EclipseXtext -dev file:H:/8 semester/Fyp2/whole fyp/Testing FYP/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-22 11:10:21.607
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saqib'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-03-22 11:16:51.611 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data H:\8 semester\Fyp2\whole fyp\Testing FYP/../runtime-EclipseXtext -dev file:H:/8 semester/Fyp2/whole fyp/Testing FYP/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-22 11:16:59.085
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saqib'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-03-22 11:19:34.932 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data H:\8 semester\Fyp2\whole fyp\Testing FYP/../runtime-EclipseXtext -dev file:H:/8 semester/Fyp2/whole fyp/Testing FYP/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-22 11:19:42.094
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saqib'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-03-22 11:21:01.297 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data H:\8 semester\Fyp2\whole fyp\Testing FYP/../runtime-EclipseXtext -dev file:H:/8 semester/Fyp2/whole fyp/Testing FYP/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-22 11:21:08.975
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saqib'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-03-22 11:25:25.715 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data H:\8 semester\Fyp2\whole fyp\Testing FYP/../runtime-EclipseXtext -dev file:H:/8 semester/Fyp2/whole fyp/Testing FYP/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-22 11:25:33.190
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saqib'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-03-22 11:29:35.682 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data H:\8 semester\Fyp2\whole fyp\Testing FYP/../runtime-EclipseXtext -dev file:H:/8 semester/Fyp2/whole fyp/Testing FYP/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-22 11:29:42.778
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saqib'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-03-22 11:31:41.587 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data H:\8 semester\Fyp2\whole fyp\Testing FYP/../runtime-EclipseXtext -dev file:H:/8 semester/Fyp2/whole fyp/Testing FYP/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-22 11:31:48.671
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saqib'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-03-22 11:35:59.051 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data H:\8 semester\Fyp2\whole fyp\Testing FYP/../runtime-EclipseXtext -dev file:H:/8 semester/Fyp2/whole fyp/Testing FYP/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-22 11:36:06.525
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saqib'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-03-22 13:30:52.816 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data H:\8 semester\Fyp2\whole fyp\Testing FYP/../runtime-EclipseXtext -dev file:H:/8 semester/Fyp2/whole fyp/Testing FYP/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-22 13:31:00.555
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saqib'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-03-22 13:58:48.840 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data H:\8 semester\Fyp2\whole fyp\Testing FYP/../runtime-EclipseXtext -dev file:H:/8 semester/Fyp2/whole fyp/Testing FYP/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-22 13:58:56.533
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saqib'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-03-22 15:32:50.376 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data H:\8 semester\Fyp2\whole fyp\Testing FYP/../runtime-EclipseXtext -dev file:H:/8 semester/Fyp2/whole fyp/Testing FYP/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-22 15:32:59.972
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saqib'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-03-22 16:16:53.213 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data H:\8 semester\Fyp2\whole fyp\Testing FYP/../runtime-EclipseXtext -dev file:H:/8 semester/Fyp2/whole fyp/Testing FYP/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-22 16:17:02.900
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saqib'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-04-12 15:45:35.618 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data H:\8 semester\Fyp2\whole fyp\Testing FYP/../runtime-EclipseXtext -dev file:H:/8 semester/Fyp2/whole fyp/Testing FYP/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-04-12 15:45:51.772
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saqib'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-04-13 08:23:30.259 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data H:\8 semester\Fyp2\whole fyp\Testing FYP/../runtime-EclipseXtext -dev file:H:/8 semester/Fyp2/whole fyp/Testing FYP/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-04-13 08:23:41.368
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saqib'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-04-13 08:57:00.865 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data H:\8 semester\Fyp2\whole fyp\Testing FYP/../runtime-EclipseXtext -dev file:H:/8 semester/Fyp2/whole fyp/Testing FYP/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-04-13 08:57:07.856
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Saqib'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

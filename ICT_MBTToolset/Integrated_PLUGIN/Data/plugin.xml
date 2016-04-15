@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            name="Sample XML Editor"
+            extensions="xml"
+            icon="icons/iconForOneGo.gif"
+            contributorClass="org.eclipse.ui.texteditor.BasicTextEditorActionContributor"
+            class="integrated_plug_in.editors.XMLEditor"
+            id="integrated_plug_in.editors.XMLEditor">
+      </editor>
+   </extension>
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            id="Integrated_Plug_IN.actionSet"
+            label="Run in one go"
+            visible="true">
+         <menu
+               id="sampleMenu"
+               label="Sample &amp;Menu">
+            <separator
+                  name="sampleGroup">
+            </separator>
+         </menu>
+         <action
+               class="integrated_plug_in.actions.SampleAction"
+               icon="icons/iconForOneGo.png"
+               id="integrated_plug_in.actions.SampleAction"
+               label="&amp;Sample Action"
+               menubarPath="sampleMenu/sampleGroup"
+               toolbarPath="sampleGroup"
+               tooltip="Run all in one go">
+         </action>
+      </actionSet>
+   
+   </extension>
+  
+
+</plugin>

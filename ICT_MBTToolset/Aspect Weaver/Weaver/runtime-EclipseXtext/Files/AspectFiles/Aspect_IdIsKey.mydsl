@@ -1,0 +1,9 @@
+aspect IdIsKey
+{
+	import_mapping mapIDisKey
+	pointcut IntroduceNewConstraint					
+	context T::idIsKey():Boolean				
+	intro:								
+	post IntroduceNewConstraint			
+	"T. allInstances()-> select(t|t.id=self.id)-> size() =1"
+}

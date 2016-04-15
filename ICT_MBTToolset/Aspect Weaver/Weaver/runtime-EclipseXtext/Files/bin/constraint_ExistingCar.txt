@@ -1,0 +1,16 @@
+context ExistingCar::car() : Car
+
+
+context ExistingCarGroup::carG() : CarGroup
+
+
+context ExistingCarModel::carM() : CarModel
+
+
+context ExistingDiscount::discount() : Discount
+
+
+context ExistingRentalDuration::duration() : RentalDuration
+
+
+context ExistingPerformanceIndicator::prefInd() : PerformanceIndicator

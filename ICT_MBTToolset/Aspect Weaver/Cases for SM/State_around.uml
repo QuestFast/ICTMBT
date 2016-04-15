@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Profile="http:///schemas/Profile/_JKtZsK-8EeWRDpfAbbYhPA/3" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/Profile/_JKtZsK-8EeWRDpfAbbYhPA/3 ../Profile/model.profile.uml#_JKvO4K-8EeWRDpfAbbYhPA">
+  <uml:Model xmi:id="_OMk5QLRrEeWUifywQjtFfw" name="model">
+    <packagedElement xmi:type="uml:StateMachine" xmi:id="_OMk5QbRrEeWUifywQjtFfw" name="StateMachine1">
+      <ownedRule xmi:type="uml:Constraint" xmi:id="_XfAG4LRrEeWUifywQjtFfw" name="1">
+        <specification xmi:type="uml:LiteralString" xmi:id="_XfAG4bRrEeWUifywQjtFfw" value="&lt;&lt;Aspect>> name=&quot;AdviceOnStates&quot;,baseStateMachine&quot;Saturn::Saturn&quot;"/>
+      </ownedRule>
+      <region xmi:type="uml:Region" xmi:id="_OMk5QrRrEeWUifywQjtFfw" name="Region1">
+        <transition xmi:type="uml:Transition" xmi:id="_VlmVQLRrEeWUifywQjtFfw" source="_RbVUQLRrEeWUifywQjtFfw" target="_Tfar4LRrEeWUifywQjtFfw"/>
+        <transition xmi:type="uml:Transition" xmi:id="_WIsbQLRrEeWUifywQjtFfw" source="_R1ReQLRrEeWUifywQjtFfw" target="_RbVUQLRrEeWUifywQjtFfw"/>
+        <subvertex xmi:type="uml:State" xmi:id="_RbVUQLRrEeWUifywQjtFfw" name="Initialized">
+          <ownedRule xmi:type="uml:Constraint" xmi:id="_gK5gALRrEeWUifywQjtFfw" name="2">
+            <specification xmi:type="uml:LiteralString" xmi:id="_gK5gAbRrEeWUifywQjtFfw" value="&lt;&lt;Pointcut>> name=&quot;SelectIdleStatepointcut&quot;,type=SelectionType::One,selectionConstraint=&quot;Contex uml::vertex self.name=' Idle ' &quot;,aroundAdvice=&quot;ReplaceIdleStateAroundAdvice&quot;"/>
+          </ownedRule>
+          <ownedRule xmi:type="uml:Constraint" xmi:id="_1hJE0LRrEeWUifywQjtFfw" name="3">
+            <specification xmi:type="uml:LiteralString" xmi:id="_1hJE0bRrEeWUifywQjtFfw" value="&lt;&lt;Around>>name=&quot;ReplaceIdleStateAroundAdvice&quot;,constraint=&quot;Initialized&quot;"/>
+          </ownedRule>
+        </subvertex>
+        <subvertex xmi:type="uml:Pseudostate" xmi:id="_R1ReQLRrEeWUifywQjtFfw" name="Start"/>
+        <subvertex xmi:type="uml:FinalState" xmi:id="_Tfar4LRrEeWUifywQjtFfw" name="End"/>
+      </region>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Jn7z8LRsEeWUifywQjtFfw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JoaVEbRsEeWUifywQjtFfw" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JoaVErRsEeWUifywQjtFfw" key="Version" value="0.0.4"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JoaVE7RsEeWUifywQjtFfw" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JoaVFLRsEeWUifywQjtFfw" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JoaVFbRsEeWUifywQjtFfw" key="Date" value="2015-12-31"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JoaVFrRsEeWUifywQjtFfw" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JoaVELRsEeWUifywQjtFfw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="../Profile/model.profile.uml#_JKvO4K-8EeWRDpfAbbYhPA"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="../Profile/model.profile.uml#_FB9QQK16EeWCvpWBgsf40A"/>
+    </profileApplication>
+  </uml:Model>
+  <Profile:Pointcut xmi:id="_PVGLELRsEeWUifywQjtFfw" base_State="_RbVUQLRrEeWUifywQjtFfw"/>
+  <Profile:Around xmi:id="_PVYe8LRsEeWUifywQjtFfw" base_State="_RbVUQLRrEeWUifywQjtFfw"/>
+  <Profile:Aspect xmi:id="_iDk2IL2xEeWB5q7eYvojvQ" base_StateMachine="_OMk5QbRrEeWUifywQjtFfw"/>
+</xmi:XMI>

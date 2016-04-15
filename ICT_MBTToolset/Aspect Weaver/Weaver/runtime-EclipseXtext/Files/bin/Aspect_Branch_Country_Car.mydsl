@@ -1,0 +1,9 @@
+aspect UniqunessConstraint
+{
+	import_mapping mapUniquenessConstraint
+    pointcut uniqueNames 
+    context T::nameIskey():Boolean  
+    intro:
+    post uniqueNames
+    "T.allInstances()->select(t|t.name=self.name)->size()=1"
+    }

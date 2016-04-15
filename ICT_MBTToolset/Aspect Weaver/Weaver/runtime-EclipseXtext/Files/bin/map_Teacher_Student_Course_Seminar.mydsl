@@ -1,0 +1,10 @@
+mapping map_Teacher_Student_Course_Seminar
+{
+ let T->A:
+ 			{
+	 			 Course -> Course :: courseCode,
+			     Student -> Student :: rollNo,
+			     Teacher -> Teacher :: teacherId,
+			     Seminar -> Seminar :: seminarID
+		     }
+}

@@ -1,0 +1,7 @@
+context ExistingRentalDuration :: duration() : RentalDuration
+post:
+let temp : set (RentalDuration)= RentalDuration. allInstances()-> select(var| var.name=self. ExistingRentalDuration:: durationName) in temp->notEmpty() implies result= temp -> any()
+
+context ExistingPerformanceIndicator:: perfInd() : PerformanceIndicator
+post:
+let temp : set (PerformanceIndicator)= PerformanceIndicator. allInstances()-> select(var| var.name=self. ExistingPerformanceIndicator:: name) in temp->notEmpty() implies result= temp -> any()

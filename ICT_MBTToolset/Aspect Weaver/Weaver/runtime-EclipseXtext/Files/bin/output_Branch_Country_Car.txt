@@ -1,0 +1,27 @@
+context Branch::nameIskey():Boolean
+post :
+Branch.allInstances()->select(t|t.name=self.name)->size()=1
+
+context BranchType::nameIskey():Boolean
+post :
+BranchType.allInstances()->select(t|t.name=self.name)->size()=1
+
+context Country::nameIskey():Boolean
+post :
+Country.allInstances()->select(t|t.name=self.name)->size()=1
+
+context PerformanceIndicator::nameIskey():Boolean
+post :
+PerformanceIndicator.allInstances()->select(t|t.name=self.name)->size()=1
+
+context ServiceDepot::nameIskey():Boolean
+post :
+ServiceDepot.allInstances()->select(t|t.name=self.name)->size()=1
+
+context CarModel::nameIskey():Boolean
+post :
+CarModel.allInstances()->select(t|t.name=self.name)->size()=1
+
+context CarGroup::nameIskey():Boolean
+post :
+CarGroup.allInstances()->select(t|t.name=self.name)->size()=1

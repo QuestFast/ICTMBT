@@ -1,0 +1,7 @@
+context BasicAccount inv:
+if (transactionCountPerMonth > 5 and balance > 10,000)
+then result = self.bonusPointsEarned + 1
+
+context LoyaltyAccount inv:
+if (transactionCountPerMonth > 5 and money > 50,000)
+then result = self.bonusPointsEarned + 5

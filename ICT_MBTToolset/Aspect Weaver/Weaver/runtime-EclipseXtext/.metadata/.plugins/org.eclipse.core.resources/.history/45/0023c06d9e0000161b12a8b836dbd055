@@ -1,0 +1,12 @@
+aspect CarInformation
+{
+		import_mapping mapCarInformation
+		pointcut IntroduceNewConstraint:
+		context T
+		
+		intro: 
+		post IntroduceNewConstraint
+		let temp : set (S)= S. allInstances()-> select(var| var.name=self.A)
+		in
+		temp->notEmpty() implies result= temp -> any()
+}

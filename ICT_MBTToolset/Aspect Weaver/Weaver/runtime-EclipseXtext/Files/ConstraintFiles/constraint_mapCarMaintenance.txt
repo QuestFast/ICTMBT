@@ -1,0 +1,20 @@
+context ExtendedCarAllocationDefinitions:: upgradePossible(): Boolean post:
+result= if self.upgradeGroup->isNotEmpty() 
+
+then
+	(self.curBranch.nextDayR.car->collect(carGroup)->
+    includes(upgradeGroup) or self.groupAvail(self.upgradeGroup)) 
+
+else
+False
+
+
+
+
+context ExtendedCarAllocationDefinitions:: downgradePossible(): Boolean post:
+result= if self.downgradeGroup-> isNotEmpty() 
+then 
+	self.groupAvail(self.downgradeGroup)->isNotEmpty 
+
+else
+False

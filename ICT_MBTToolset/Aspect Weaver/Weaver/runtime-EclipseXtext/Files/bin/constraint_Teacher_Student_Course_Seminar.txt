@@ -1,0 +1,14 @@
+context Course inv:
+		courseName.size() >= 10
+			and courseName.size() <=20
+			
+context Student inv:
+	 feespaid= false implies registersFor ->isEmpty()
+	 
+context Teacher inv:
+	  Teacher.allInstances() ->select (
+					t | t.age> 30) ->isEmpty()
+								
+context Seminar inv:
+	Seminar.allInstances() ->forall (
+	   s1 | s1.noOfAttendees > 30)

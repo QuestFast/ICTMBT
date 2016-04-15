@@ -1,0 +1,25 @@
+mapping mapExistingCar 
+{
+ let S->{A,B,TT}:
+ 			{
+	 			
+					ExistingCar::car() : Car ->
+					{ Car::registrationNumber, ExistingCar::regNumber, Car},
+					
+					ExistingCarGroup::carG() : CarGroup ->
+					{ CarGroup::name,ExistingCarGroup::carGroup,CarGroup},
+					
+					ExistingCarModel::carM() : CarModel ->
+					{ CarModel::name,ExistingCarModel::carModel,CarModel},
+					
+					ExistingDiscount::discount() : Discount ->
+					{ Discount::name,ExistingDiscount::discountName,Discount},
+					
+					ExistingRentalDuration::duration() : RentalDuration ->
+					{ RentalDuration::name, ExistingRentalDuration::durationName,RentalDuration},
+					
+					ExistingPerformanceIndicator::prefInd() : PerformanceIndicator ->
+					{ PerformanceIndicator::name, ExistingPerformanceIndicator::name,PerformanceIndicator}
+					
+		   }
+}

@@ -1,0 +1,7 @@
+context EU_RentPerson::idIsKey():Boolean
+post :
+EU_RentPerson. allInstances()-> select(t|t.id=self.id)-> size() =1
+
+context PendantCarOrder::idIsKey():Boolean
+post :
+PendantCarOrder. allInstances()-> select(t|t.id=self.id)-> size() =1

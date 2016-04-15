@@ -1,0 +1,9 @@
+Start
+Presentation
+Demo
+Discussion
+Suspend
+Resume
+ConcludingSession
+End
+QuestionAnswerSession

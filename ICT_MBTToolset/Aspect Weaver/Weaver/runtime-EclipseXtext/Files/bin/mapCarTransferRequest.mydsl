@@ -1,0 +1,8 @@
+mapping mapCarTransferRequest
+{
+	let P->{Q,W}: 
+	{
+				RequestTransfer :: apply() : Boolean->{Branch :: otherBranch,Branch :: askingBranch},
+				DoTransfer :: apply() : Boolean->{Branch :: askingBranch,Branch :: otherBranch}
+	}
+}

@@ -1,0 +1,186 @@
+grammar org.xtext.example.mydsl.MyDsl with org.eclipse.xtext.common.Terminals
+
+
+generate myDsl "http://www.xtext.org/example/mydsl/MyDsl"
+
+
+Model:
+	(aspect+=Aspect);
+	
+	
+Aspect:
+	
+	(Mapping)|(AspectDefinition);	
+	
+	
+Mapping:
+	'mapping' mappingname=MappingName
+	'{'
+		letExpression
+	'}';
+	
+letExpression:
+	( 'let' letVarName ':'
+		'{'
+			(Operation(','Operation)*)
+		'}'
+	)
+	
+	|
+	(
+		'let' letVarName '->' letVarName ':'
+		'{'
+			(COA '->' SCOA) (',' (COA '->' SCOA ))*
+		
+		'}'
+		
+	)
+	
+	|
+	
+	(
+		'let' letVarName '->' letVarNameArray ':'
+		'{'
+		      (COA '->' '{' ( COA(','COA)+ )  '}')(','(COA '->' '{' ( COA(','COA)+ )  '}') )*	
+		
+		'}'
+		
+	);	
+
+
+
+
+COA:
+	Operation;
+
+SCOA:
+	Operation;
+
+AttributeContext:
+	ClassifierContext '::' NameChar;
+
+
+Operation:
+	
+	(ClassifierContext|OperationContext|AttributeContext);
+	
+	
+letVarNameArray:
+	'{'( letVarName (','letVarName)+ )'}';
+
+
+
+letVarName:
+	NameChar;	
+	
+		
+AspectDefinition :
+	'aspect' AspectName 
+	 '{' 
+	    
+	 	 (mappingdeclarartion=Mapping_Declaration)
+	 	 pointcutdeclaration=Pointcut_Declaration
+	 	 ContextDeclaration
+	 	 (QueryDeclaration)?
+	 	 AIDeclaration=AI
+	 
+	 '}' ;
+
+
+AspectName:
+  NameChar;
+
+Mapping_Declaration:
+	'import_mapping' reference_mappingname=[MappingName];
+
+MappingName:
+  name=ID;
+
+Pointcut_Declaration:
+	'pointcut' name=ID;
+
+PointcutName:
+    NameChar;
+
+ContextDeclaration:
+	'context' (ClassifierContext|OperationContext);
+
+ClassifierContext:
+	NameChar;
+
+OperationContext:
+	
+	ClassifierContext '::' OperationName '(' (Arguments  (','Arguments )* )? ')' (':' Returntype)?;
+
+OperationName:
+	NameChar;
+
+Arguments:
+	NameChar;
+
+Returntype:
+	'Boolean' | 'String' | 'int' | 'float' | 'double' | NameChar;
+	
+	
+AI:
+(Advice | Intro); 
+
+
+Advice:
+	AdviceDeclaration advicetype=AdviceType introadvicequery=IntroAdviceQuery;  
+
+
+AdviceDeclaration:
+	'advice' QueryType ':' ;
+	
+	
+QueryType:
+	'pre' |  'post' | 'inv';	
+
+	
+AdviceType:
+	('and' | 'or' | 'xor')  name=ID;
+	
+	
+IntroAdviceQuery:
+	name=OclExpression;
+
+
+Intro:
+	IntroDeclaration introtype=IntroType introquey=IntroQuery;
+
+
+IntroDeclaration:
+	'intro'  ':';
+	
+	
+IntroType:
+	QueryType name=ID;
+	
+	
+IntroQuery:
+  name= OclExpression;
+
+
+QueryDeclaration:
+	QueryType '->' 'select' QueryBody;
+	
+QueryBody:
+	'('  Expression  ')';		
+
+Expression:
+	(
+		('exp:OCLExpression' '|' 'exp.oclIsTypeOf(thenExp)') |
+		(('exp:OCLExpression' '|' 'exp.oclIsTypeOf(ifExp)' 'and' 'exp.condition.refferedVariable' '=') (name=ID))
+				
+	);
+
+ OclExpression:
+	value=STRING;
+
+  	
+NameChar:
+  (ID)+;
+	
+
+

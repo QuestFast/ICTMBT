@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/org.xtext.example.mydsl/src-gen" editDirectory="/org.xtext.example.mydsl.edit/src"
+    editorDirectory="/org.xtext.example.mydsl.editor/src" modelPluginID="org.xtext.example.mydsl"
+    forceOverwrite="true" modelName="MyDsl" updateClasspath="false" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    complianceLevel="6.0" copyrightFields="false" editPluginID="org.xtext.example.mydsl.edit"
+    editorPluginID="org.xtext.example.mydsl.editor" runtimeVersion="2.10">
+  <genPackages prefix="MyDsl" basePackage="org.xtext.example.mydsl" disposableProviderFactory="true"
+      fileExtensions="mydsl" ecorePackage="MyDsl.ecore#/">
+    <genClasses ecoreClass="MyDsl.ecore#//Model">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MyDsl.ecore#//Model/aspect"/>
+    </genClasses>
+    <genClasses ecoreClass="MyDsl.ecore#//Aspect"/>
+    <genClasses ecoreClass="MyDsl.ecore#//Mapping">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MyDsl.ecore#//Mapping/mappingname"/>
+    </genClasses>
+    <genClasses ecoreClass="MyDsl.ecore#//AspectDefinition">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MyDsl.ecore#//AspectDefinition/mappingdeclarartion"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MyDsl.ecore#//AspectDefinition/pointcutdeclaration"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MyDsl.ecore#//AspectDefinition/AIDeclaration"/>
+    </genClasses>
+    <genClasses ecoreClass="MyDsl.ecore#//Mapping_Declaration">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference MyDsl.ecore#//Mapping_Declaration/reference_mappingname"/>
+    </genClasses>
+    <genClasses ecoreClass="MyDsl.ecore#//MappingName">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MyDsl.ecore#//MappingName/name"/>
+    </genClasses>
+    <genClasses ecoreClass="MyDsl.ecore#//Pointcut_Declaration">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MyDsl.ecore#//Pointcut_Declaration/name"/>
+    </genClasses>
+    <genClasses ecoreClass="MyDsl.ecore#//AI"/>
+    <genClasses ecoreClass="MyDsl.ecore#//Advice">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MyDsl.ecore#//Advice/advicetype"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MyDsl.ecore#//Advice/introadvicequery"/>
+    </genClasses>
+    <genClasses ecoreClass="MyDsl.ecore#//AdviceType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MyDsl.ecore#//AdviceType/name"/>
+    </genClasses>
+    <genClasses ecoreClass="MyDsl.ecore#//IntroAdviceQuery">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MyDsl.ecore#//IntroAdviceQuery/name"/>
+    </genClasses>
+    <genClasses ecoreClass="MyDsl.ecore#//Intro">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MyDsl.ecore#//Intro/introtype"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MyDsl.ecore#//Intro/introquey"/>
+    </genClasses>
+    <genClasses ecoreClass="MyDsl.ecore#//IntroType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MyDsl.ecore#//IntroType/name"/>
+    </genClasses>
+    <genClasses ecoreClass="MyDsl.ecore#//IntroQuery">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference MyDsl.ecore#//IntroQuery/name"/>
+    </genClasses>
+    <genClasses ecoreClass="MyDsl.ecore#//QueryDeclaration"/>
+    <genClasses ecoreClass="MyDsl.ecore#//QueryBody"/>
+    <genClasses ecoreClass="MyDsl.ecore#//Expression">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MyDsl.ecore#//Expression/name"/>
+    </genClasses>
+    <genClasses ecoreClass="MyDsl.ecore#//OclExpression">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute MyDsl.ecore#//OclExpression/value"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

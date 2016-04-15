@@ -1,0 +1,7 @@
+context RequestTransfer :: apply() : Boolean
+post:
+self.oclAsType(MoveCars).^apply() and self.Branch :: otherBranch.carsAvailable@pre-> intersection(self.otherBranch.car-> select(c|c.oclIsKindOf(BeingTransferredCar) andc.oclAsType(BeingTransferredCar).destination= self.Branch :: askingBranch))->size()=movedCars
+
+context DoTransfer :: apply() : Boolean
+post:
+self.oclAsType(MoveCars).^apply() and self.Branch :: askingBranch.carsAvailable@pre-> intersection(self.otherBranch.car-> select(c|c.oclIsKindOf(BeingTransferredCar) andc.oclAsType(BeingTransferredCar).destination= self.Branch :: otherBranch))->size()=movedCars

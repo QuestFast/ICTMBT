@@ -1,0 +1,7 @@
+mapping mapBalanceForAccount
+{
+	let T->S:
+	 {
+	 	BasicAccount->balance,LoyaltyAccount->money
+	 }
+}

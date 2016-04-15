@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_8IgWLu2jEeSA_fj1xCEqUg" name="Blank Package">
+  <packageImport xmi:id="_8IgWL-2jEeSA_fj1xCEqUg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_8IgWMO2jEeSA_fj1xCEqUg" name="Account">
+    <generalization xmi:id="_8IgWMe2jEeSA_fj1xCEqUg" general="_8IgWdu2jEeSA_fj1xCEqUg"/>
+    <generalization xmi:id="_8IgWMu2jEeSA_fj1xCEqUg" general="_8IgWd-2jEeSA_fj1xCEqUg"/>
+    <ownedAttribute xmi:id="_8IgWM-2jEeSA_fj1xCEqUg" name="branch" visibility="private" type="_8IgWV-2jEeSA_fj1xCEqUg" association="_8IgWbe2jEeSA_fj1xCEqUg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8IgWNO2jEeSA_fj1xCEqUg" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8IgWNe2jEeSA_fj1xCEqUg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_8IgWNu2jEeSA_fj1xCEqUg" name="balance" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedBehavior xmi:type="uml:StateMachine" xmi:id="_8IgWN-2jEeSA_fj1xCEqUg" name="StateMachine1">
+      <region xmi:id="_8IgWOO2jEeSA_fj1xCEqUg" name="Region1">
+        <subvertex xmi:type="uml:Pseudostate" xmi:id="_8IgWOe2jEeSA_fj1xCEqUg" name=""/>
+        <subvertex xmi:type="uml:State" xmi:id="_8IgWOu2jEeSA_fj1xCEqUg" name="acitve"/>
+        <subvertex xmi:type="uml:State" xmi:id="_8IgWO-2jEeSA_fj1xCEqUg" name="inacitve"/>
+        <subvertex xmi:type="uml:State" xmi:id="_8IgWPO2jEeSA_fj1xCEqUg" name="initailized"/>
+        <transition xmi:id="_8IgWPe2jEeSA_fj1xCEqUg" name="close" source="_8IgWOu2jEeSA_fj1xCEqUg" target="_8IgWO-2jEeSA_fj1xCEqUg">
+          <trigger xmi:id="_8IgWPu2jEeSA_fj1xCEqUg" name="" event="_8IgWcO2jEeSA_fj1xCEqUg"/>
+        </transition>
+        <transition xmi:id="_8IgWP-2jEeSA_fj1xCEqUg" name="withdraw" source="_8IgWOu2jEeSA_fj1xCEqUg" target="_8IgWOu2jEeSA_fj1xCEqUg" guard="_8IgWQO2jEeSA_fj1xCEqUg">
+          <ownedRule xmi:id="_8IgWQO2jEeSA_fj1xCEqUg" constrainedElement="_8IgWP-2jEeSA_fj1xCEqUg">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_8IgWQe2jEeSA_fj1xCEqUg">
+              <language></language>
+              <body>balance-amount>500</body>
+            </specification>
+          </ownedRule>
+          <trigger xmi:id="_8IgWQu2jEeSA_fj1xCEqUg" name="" event="_8IgWce2jEeSA_fj1xCEqUg"/>
+        </transition>
+        <transition xmi:id="_8IgWQ-2jEeSA_fj1xCEqUg" name="deposit" source="_8IgWOu2jEeSA_fj1xCEqUg" target="_8IgWOu2jEeSA_fj1xCEqUg">
+          <trigger xmi:id="_8IgWRO2jEeSA_fj1xCEqUg" name="" event="_8IgWcu2jEeSA_fj1xCEqUg"/>
+        </transition>
+        <transition xmi:id="_8IgWRe2jEeSA_fj1xCEqUg" name="withdraw" source="_8IgWOu2jEeSA_fj1xCEqUg" target="_8IgWO-2jEeSA_fj1xCEqUg" guard="_8IgWRu2jEeSA_fj1xCEqUg">
+          <ownedRule xmi:id="_8IgWRu2jEeSA_fj1xCEqUg" constrainedElement="_8IgWRe2jEeSA_fj1xCEqUg">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_8IgWR-2jEeSA_fj1xCEqUg">
+              <language></language>
+              <body>balance-amount&lt;500</body>
+            </specification>
+          </ownedRule>
+          <trigger xmi:id="_8IgWSO2jEeSA_fj1xCEqUg" name="" event="_8IgWc-2jEeSA_fj1xCEqUg"/>
+        </transition>
+        <transition xmi:id="_8IgWSe2jEeSA_fj1xCEqUg" name="reopen" source="_8IgWO-2jEeSA_fj1xCEqUg" target="_8IgWOu2jEeSA_fj1xCEqUg">
+          <trigger xmi:id="_8IgWSu2jEeSA_fj1xCEqUg" name="" event="_8IgWdO2jEeSA_fj1xCEqUg"/>
+        </transition>
+        <transition xmi:id="_8IgWS-2jEeSA_fj1xCEqUg" name="start" source="_8IgWOe2jEeSA_fj1xCEqUg" target="_8IgWPO2jEeSA_fj1xCEqUg"/>
+        <transition xmi:id="_8IgWTO2jEeSA_fj1xCEqUg" name="open" source="_8IgWPO2jEeSA_fj1xCEqUg" target="_8IgWOu2jEeSA_fj1xCEqUg">
+          <trigger xmi:id="_8IgWTe2jEeSA_fj1xCEqUg" name="" event="_8IgWee2jEeSA_fj1xCEqUg"/>
+        </transition>
+      </region>
+    </ownedBehavior>
+    <ownedOperation xmi:id="_8IgWTu2jEeSA_fj1xCEqUg" name="open"/>
+    <ownedOperation xmi:id="_8IgWT-2jEeSA_fj1xCEqUg" name="close"/>
+    <ownedOperation xmi:id="_8IgWUO2jEeSA_fj1xCEqUg" name="withdraw">
+      <ownedParameter xmi:id="_8IgWUe2jEeSA_fj1xCEqUg" name="amount">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_8IgWUu2jEeSA_fj1xCEqUg" name="">
+          <language></language>
+          <body></body>
+        </defaultValue>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_8IgWU-2jEeSA_fj1xCEqUg" name="deposit">
+      <ownedParameter xmi:id="_8IgWVO2jEeSA_fj1xCEqUg" name="amount">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_8IgWVe2jEeSA_fj1xCEqUg" name="checkBalance"/>
+    <ownedOperation xmi:id="_8IgWVu2jEeSA_fj1xCEqUg" name="reOpen"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_8IgWV-2jEeSA_fj1xCEqUg" name="Branch">
+    <ownedAttribute xmi:id="_8IgWWO2jEeSA_fj1xCEqUg" name="account" visibility="private" type="_8IgWMO2jEeSA_fj1xCEqUg" association="_8IgWbe2jEeSA_fj1xCEqUg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8IgWWe2jEeSA_fj1xCEqUg" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8IgWWu2jEeSA_fj1xCEqUg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_8IgWW-2jEeSA_fj1xCEqUg" name="code" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_8IgWXO2jEeSA_fj1xCEqUg" name="address" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_8IgWXe2jEeSA_fj1xCEqUg" name="bank" visibility="private" type="_8IgWYO2jEeSA_fj1xCEqUg" association="_8IgWde2jEeSA_fj1xCEqUg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8IgWXu2jEeSA_fj1xCEqUg" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8IgWX-2jEeSA_fj1xCEqUg" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_8IgWYO2jEeSA_fj1xCEqUg" name="Bank">
+    <ownedAttribute xmi:id="_8IgWYe2jEeSA_fj1xCEqUg" name="branch" visibility="private" type="_8IgWV-2jEeSA_fj1xCEqUg" aggregation="shared" association="_8IgWae2jEeSA_fj1xCEqUg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8IgWYu2jEeSA_fj1xCEqUg" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8IgWY-2jEeSA_fj1xCEqUg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_8IgWZO2jEeSA_fj1xCEqUg" name="name" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_8IgWZe2jEeSA_fj1xCEqUg" name="Region" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_8IgWZu2jEeSA_fj1xCEqUg" name="branch2" visibility="private" type="_8IgWV-2jEeSA_fj1xCEqUg" association="_8IgWde2jEeSA_fj1xCEqUg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8IgWZ-2jEeSA_fj1xCEqUg" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8IgWaO2jEeSA_fj1xCEqUg"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_8IgWae2jEeSA_fj1xCEqUg" memberEnd="_8IgWYe2jEeSA_fj1xCEqUg _8IgWau2jEeSA_fj1xCEqUg">
+    <ownedEnd xmi:id="_8IgWau2jEeSA_fj1xCEqUg" name="" visibility="private" type="_8IgWYO2jEeSA_fj1xCEqUg" association="_8IgWae2jEeSA_fj1xCEqUg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8IgWa-2jEeSA_fj1xCEqUg" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8IgWbO2jEeSA_fj1xCEqUg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_8IgWbe2jEeSA_fj1xCEqUg" memberEnd="_8IgWWO2jEeSA_fj1xCEqUg _8IgWM-2jEeSA_fj1xCEqUg"/>
+  <packagedElement xmi:type="uml:CallEvent" xmi:id="_8IgWbu2jEeSA_fj1xCEqUg" name=""/>
+  <packagedElement xmi:type="uml:CallEvent" xmi:id="_8IgWb-2jEeSA_fj1xCEqUg" name="" operation="_8IgWTu2jEeSA_fj1xCEqUg"/>
+  <packagedElement xmi:type="uml:CallEvent" xmi:id="_8IgWcO2jEeSA_fj1xCEqUg" name="" operation="_8IgWT-2jEeSA_fj1xCEqUg"/>
+  <packagedElement xmi:type="uml:CallEvent" xmi:id="_8IgWce2jEeSA_fj1xCEqUg" name="" operation="_8IgWUO2jEeSA_fj1xCEqUg"/>
+  <packagedElement xmi:type="uml:CallEvent" xmi:id="_8IgWcu2jEeSA_fj1xCEqUg" name="" operation="_8IgWU-2jEeSA_fj1xCEqUg"/>
+  <packagedElement xmi:type="uml:CallEvent" xmi:id="_8IgWc-2jEeSA_fj1xCEqUg" name="" operation="_8IgWUO2jEeSA_fj1xCEqUg"/>
+  <packagedElement xmi:type="uml:CallEvent" xmi:id="_8IgWdO2jEeSA_fj1xCEqUg" name="" operation="_8IgWVu2jEeSA_fj1xCEqUg"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_8IgWde2jEeSA_fj1xCEqUg" memberEnd="_8IgWZu2jEeSA_fj1xCEqUg _8IgWXe2jEeSA_fj1xCEqUg"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_8IgWdu2jEeSA_fj1xCEqUg" name="Savings"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_8IgWd-2jEeSA_fj1xCEqUg" name="Current"/>
+  <packagedElement xmi:type="uml:CallEvent" xmi:id="_8IgWeO2jEeSA_fj1xCEqUg" name="" operation="_8IgWTu2jEeSA_fj1xCEqUg"/>
+  <packagedElement xmi:type="uml:CallEvent" xmi:id="_8IgWee2jEeSA_fj1xCEqUg" name="" operation="_8IgWTu2jEeSA_fj1xCEqUg"/>
+  <profileApplication xmi:id="_8IgWeu2jEeSA_fj1xCEqUg">
+    <eAnnotations xmi:id="_8IgWe-2jEeSA_fj1xCEqUg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+  </profileApplication>
+</uml:Model>

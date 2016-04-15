@@ -1,0 +1,7 @@
+mapping mapIDisKey
+{ 
+	let T: 
+	{
+		EU_RentPerson,PendantCarOrder
+	} 
+}

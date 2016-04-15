@@ -1,0 +1,10 @@
+mapping mapCarMaintenance
+{
+	let T->S: 
+	{
+		ExtendedCarAllocationDefinitions:: upgradePossible(): Boolean ->
+	   										 ExtendedCarAllocationDefinitions :: upgradeGroup,  
+	    ExtendedCarAllocationDefinitions:: downgradePossible(): Boolean ->
+                                         	ExtendedCarAllocationDefinitions :: downgradeGroup
+    }
+}

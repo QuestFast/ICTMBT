@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="lib" path="library/Addons/MBT_toolset.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="Addons"/>
+	<classpathentry exported="true" kind="lib" path="Addons/log4j.jar"/>
+	<classpathentry exported="true" kind="lib" path="Addons/org.eclipse.emf.common_2.5.0.v200906151043.jar"/>
+	<classpathentry exported="true" kind="lib" path="Addons/org.eclipse.emf.ecore_2.5.0.v200906151043.jar"/>
+	<classpathentry exported="true" kind="lib" path="Addons/org.eclipse.emf.ecore.change_2.5.0.v200906151043.jar"/>
+	<classpathentry exported="true" kind="lib" path="Addons/org.eclipse.emf.ecore.xmi_2.5.0.v200906151043.jar"/>
+	<classpathentry exported="true" kind="lib" path="Addons/org.eclipse.emf.mapping.ecore2xml_2.5.0.v200906151043.jar"/>
+	<classpathentry exported="true" kind="lib" path="Addons/org.eclipse.mofscript.fileresourcemodel.jar"/>
+	<classpathentry exported="true" kind="lib" path="Addons/org.eclipse.mofscript.model.jar"/>
+	<classpathentry exported="true" kind="lib" path="Addons/org.eclipse.mofscript.parser.jar"/>
+	<classpathentry exported="true" kind="lib" path="Addons/org.eclipse.mofscript.runtime.jar"/>
+	<classpathentry exported="true" kind="lib" path="Addons/org.eclipse.uml2.common_1.5.0.v201005031530.jar"/>
+	<classpathentry exported="true" kind="lib" path="Addons/org.eclipse.uml2.uml_3.1.2.v201010261927.jar"/>
+	<classpathentry exported="true" kind="lib" path="Addons/org.eclipse.uml2.uml_3.2.0.v201105231350.jar"/>
+	<classpathentry exported="true" kind="lib" path="Addons/org.eclipse.uml2.uml.resources-3.1.0.v201005031530.jar"/>
+	<classpathentry exported="true" kind="lib" path="Addons/EOS-0.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="Addons/org.eclipse.core.filesystem-1.3.200.v20130115-145044.jar"/>
+	<classpathentry exported="true" kind="lib" path="Addons/jodd.jar"/>
+	<classpathentry kind="var" path="ECLIPSE_HOME"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,10 @@
+aspect UniqunessConstraint 
+{
+    import_mapping mapExistingCar
+    pointcut existGroup
+    context S
+    intro:
+    post existGroup
+    "let CarVal: set(TT)=TT.allInstances()-> select(c|c.A = self.B)
+     in  CarVal ->notEmpty() implies result= CarVal ->any()" 
+}

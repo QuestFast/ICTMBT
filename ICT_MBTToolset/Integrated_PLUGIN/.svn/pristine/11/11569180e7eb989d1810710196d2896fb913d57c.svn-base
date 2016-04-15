@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            id="Integrated_Plug_IN.actionSet"
+            label="Run in one go"
+            visible="true">
+         <menu
+               id="sampleMenu"
+               label="Sample &amp;Menu">
+            <separator
+                  name="sampleGroup">
+            </separator>
+         </menu>
+         <action
+               class="integrated_plug_in.actions.SampleAction"
+               icon="icons/iconForOneGo.png"
+               id="integrated_plug_in.actions.SampleAction"
+               label="&amp;Sample Action"
+               menubarPath="sampleMenu/sampleGroup"
+               toolbarPath="sampleGroup"
+               tooltip="Run all in one go">
+         </action>
+      </actionSet>
+      <actionSet
+            id="Integrated_Plug_IN.actionSet"
+            label="StepbyStep"
+            visible="true">
+         <menu
+               icon="icons/sample.gif"
+               id="sampleMenu"
+               label="Sample &amp;Menu">
+            <separator
+                  name="sampleGroups">
+            </separator>
+         </menu>
+         <action
+               class="integrated_plug_in.Secondactions.StepByStep"
+               icon="icons/sample.gif"
+               id="integrated_plug_in.Secondactions.StepByStep"
+               label="&amp;Sample Action"
+               menubarPath="sampleMenu/sampleGroup"
+               toolbarPath="sampleGroup"
+               tooltip="StepByStep">
+         </action>
+      </actionSet>
+   
+   </extension>
+   <extension
+         point="org.eclipse.ui.newWizards">
+      <category
+            id="Integrated_Plug_IN.category1"
+            name="ToolSet">
+      </category>
+      <wizard
+            class="integrated_plug_in.NewWizard2"
+            id="Integrated_Plug_IN.wizard2"
+            name="SoftwareTestingToolSet">
+      </wizard>
+   </extension>
+   <extension
+         point="org.eclipse.ui.importWizards">
+      <category
+            id="integrated_plug_in.importWizards.sampleCategory"
+            name="Import File">
+      </category>
+      <wizard
+            category="integrated_plug_in.importWizards.sampleCategory"
+            class="integrated_plug_in.importWizards.ImportWizard"
+            icon="icons/sample.gif"
+            id="integrated_plug_in.importWizards.ImportWizard"
+            name="Uml File">
+         <description>
+            Import a file from the local file system into the workspace.
+         </description>
+      </wizard>
+      <category
+            id="integrated_plug_in.importWizards.sampleCategory"
+            name="Import Java File">
+      </category>
+      <wizard
+            category="integrated_plug_in.importWizards.sampleCategory"
+            class="integrated_plug_in.importWizards.ImportWizard"
+            icon="icons/sample.gif"
+            id="integrated_plug_in.importWizards.ImportWizard"
+            name="Java File">
+         <description>
+            Import a file from the local file system into the workspace.
+         </description>
+      </wizard>
+   </extension>
+  
+
+</plugin>

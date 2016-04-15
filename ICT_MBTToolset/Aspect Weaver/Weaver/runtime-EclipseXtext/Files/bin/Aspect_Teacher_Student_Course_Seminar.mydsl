@@ -1,0 +1,9 @@
+aspect UniqunessConstraint 
+{
+   import_mapping map_Teacher_Student_Course_Seminar
+    pointcut selectUniquenessTarget
+    context T   
+    advice inv:
+    and selectUniquenessTarget
+   "T.allInstances() ->isUnique(A)"
+}

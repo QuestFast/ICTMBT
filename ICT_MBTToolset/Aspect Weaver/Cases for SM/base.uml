@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_72WDwK4SEeWJp5EPxJipLA" name="model">
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_72WDwa4SEeWJp5EPxJipLA" name="Saturn">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_nZLNELLVEeWrGJPtcLKCBQ" name="dial"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_BDq1ULLWEeWrGJPtcLKCBQ" name="callDisconnect"/>
+    <region xmi:type="uml:Region" xmi:id="_72WDwq4SEeWJp5EPxJipLA" name="Region1">
+      <transition xmi:type="uml:Transition" xmi:id="_4K6aMK4aEeWJp5EPxJipLA" source="_2s_qsK4aEeWJp5EPxJipLA" target="_9812MK4SEeWJp5EPxJipLA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_RuetILLTEeWrGJPtcLKCBQ" name="T1" source="_9812MK4SEeWJp5EPxJipLA" target="_-xWcUK4SEeWJp5EPxJipLA">
+        <trigger xmi:type="uml:Trigger" xmi:id="_w1k2ELLVEeWrGJPtcLKCBQ" event="_woSA8LLVEeWrGJPtcLKCBQ"/>
+      </transition>
+      <transition xmi:type="uml:Transition" xmi:id="_SO7u0LLTEeWrGJPtcLKCBQ" name="T3" source="_-xWcUK4SEeWJp5EPxJipLA" target="_LyohUK4TEeWJp5EPxJipLA">
+        <trigger xmi:type="uml:Trigger" xmi:id="_zHNhgLLVEeWrGJPtcLKCBQ" event="_woSA8LLVEeWrGJPtcLKCBQ"/>
+      </transition>
+      <transition xmi:type="uml:Transition" xmi:id="_SsktELLTEeWrGJPtcLKCBQ" name="T5" guard="_YM_hULLWEeWrGJPtcLKCBQ" source="_LyohUK4TEeWJp5EPxJipLA" target="_KVWrAK4TEeWJp5EPxJipLA">
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_YM_hULLWEeWrGJPtcLKCBQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_YM_hUbLWEeWrGJPtcLKCBQ" value="NumberOfActiveCalls=MaximumNumberOfCalls-1"/>
+        </ownedRule>
+        <trigger xmi:type="uml:Trigger" xmi:id="_4TL3ILLVEeWrGJPtcLKCBQ" event="_woSA8LLVEeWrGJPtcLKCBQ"/>
+      </transition>
+      <transition xmi:type="uml:Transition" xmi:id="_Tg2CoLLTEeWrGJPtcLKCBQ" name="T6" source="_KVWrAK4TEeWJp5EPxJipLA" target="_LyohUK4TEeWJp5EPxJipLA">
+        <trigger xmi:type="uml:Trigger" xmi:id="_GrARQLLWEeWrGJPtcLKCBQ" event="_BVV0ILLWEeWrGJPtcLKCBQ"/>
+      </transition>
+      <transition xmi:type="uml:Transition" xmi:id="_UT0XsLLTEeWrGJPtcLKCBQ" name="T4" guard="_SqLZALLWEeWrGJPtcLKCBQ" source="_LyohUK4TEeWJp5EPxJipLA" target="_-xWcUK4SEeWJp5EPxJipLA">
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_SqLZALLWEeWrGJPtcLKCBQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_SqLZAbLWEeWrGJPtcLKCBQ" value="numberOfActiveCalls=2"/>
+        </ownedRule>
+        <trigger xmi:type="uml:Trigger" xmi:id="_DnSooLLWEeWrGJPtcLKCBQ" event="_BVV0ILLWEeWrGJPtcLKCBQ"/>
+      </transition>
+      <transition xmi:type="uml:Transition" xmi:id="_VWANcLLTEeWrGJPtcLKCBQ" name="T2" source="_-xWcUK4SEeWJp5EPxJipLA" target="_9812MK4SEeWJp5EPxJipLA">
+        <trigger xmi:type="uml:Trigger" xmi:id="_BsehwLLWEeWrGJPtcLKCBQ" event="_BVV0ILLWEeWrGJPtcLKCBQ"/>
+      </transition>
+      <transition xmi:type="uml:Transition" xmi:id="_sKsGMLLTEeWrGJPtcLKCBQ" name="T7" guard="_vXaZgLLWEeWrGJPtcLKCBQ" source="_LyohUK4TEeWJp5EPxJipLA" target="_LyohUK4TEeWJp5EPxJipLA">
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_vXaZgLLWEeWrGJPtcLKCBQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_vXaZgbLWEeWrGJPtcLKCBQ" value="NumbeOfActiveCalls=MaximumNumberOfCalls>1 and NumberOfActiveCalls=MaximumNumberOfCalls-1"/>
+        </ownedRule>
+        <trigger xmi:type="uml:Trigger" xmi:id="_7Jof0LLVEeWrGJPtcLKCBQ" event="_woSA8LLVEeWrGJPtcLKCBQ"/>
+        <trigger xmi:type="uml:Trigger" xmi:id="_FT57cLLWEeWrGJPtcLKCBQ" event="_BVV0ILLWEeWrGJPtcLKCBQ"/>
+      </transition>
+      <subvertex xmi:type="uml:State" xmi:id="_9812MK4SEeWJp5EPxJipLA" name="Idle"/>
+      <subvertex xmi:type="uml:State" xmi:id="_-xWcUK4SEeWJp5EPxJipLA" name="Connected_1"/>
+      <subvertex xmi:type="uml:State" xmi:id="_KVWrAK4TEeWJp5EPxJipLA" name="Full"/>
+      <subvertex xmi:type="uml:State" xmi:id="_LyohUK4TEeWJp5EPxJipLA" name="NotFull"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_2s_qsK4aEeWJp5EPxJipLA"/>
+    </region>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CallEvent" xmi:id="_woSA8LLVEeWrGJPtcLKCBQ" name="dial" operation="_nZLNELLVEeWrGJPtcLKCBQ"/>
+  <packagedElement xmi:type="uml:CallEvent" xmi:id="_BVV0ILLWEeWrGJPtcLKCBQ" name="callDisconnect" operation="_BDq1ULLWEeWrGJPtcLKCBQ"/>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_QYAxAK4TEeWJp5EPxJipLA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QYKiAK4TEeWJp5EPxJipLA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_sYse0YZLEeKyw49uR6nx3g"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>

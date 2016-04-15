@@ -1,0 +1,16 @@
+aspect BalanceLimit
+{
+	import_mapping mapBalance
+	pointcut balanceAmount
+	context T
+	inv -> select (exp:OCLExpression| exp.oclIsTypeOf(ifExp) 
+	and exp.condition.refferedVariable=balance)           
+	
+	advice inv:
+	and balanceAmount
+	"transactionCountPerMonth >5"
+} 
+
+
+
+

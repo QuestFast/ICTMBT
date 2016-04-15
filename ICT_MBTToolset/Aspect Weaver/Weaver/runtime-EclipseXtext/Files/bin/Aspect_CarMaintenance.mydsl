@@ -1,0 +1,13 @@
+aspect CarMaintenance
+{
+	import_mapping mapCarMaintenance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+	pointcut IntroduceNewConstraint					
+	context T
+	post -> select  (exp:OCLExpression| exp.oclIsTypeOf(thenExp))
+	
+	advice post:
+	and IntroduceNewConstraint
+	"self.groupAvail(self.S)-> isNotEmpty and self.groupAvail(self.S).quantity@pre -
+	self.demXGroup->select(d|d.carGroup=self.S).
+	demand@pre > 0.1*self.groupQuota(self.curBranch, self.S)"
+}

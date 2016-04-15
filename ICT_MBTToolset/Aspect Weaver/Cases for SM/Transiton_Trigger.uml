@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Profile="http:///schemas/Profile/_JKtZsK-8EeWRDpfAbbYhPA/3" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/Profile/_JKtZsK-8EeWRDpfAbbYhPA/3 ../Profile/model.profile.uml#_JKvO4K-8EeWRDpfAbbYhPA">
+  <uml:Model xmi:id="_mhsVMLMGEeWrGJPtcLKCBQ" name="model">
+    <packagedElement xmi:type="uml:StateMachine" xmi:id="_mh7lwLMGEeWrGJPtcLKCBQ" name="StateMachine1">
+      <ownedRule xmi:type="uml:Constraint" xmi:id="_tkBLoLMKEeWrGJPtcLKCBQ" name="3">
+        <specification xmi:type="uml:LiteralString" xmi:id="_4dLtkLMKEeWrGJPtcLKCBQ" value="&lt;&lt;Aspect>>name=&quot;AddGuardAspect&quot;,baseStateMachine=&quot;Saturn::Saturn&quot;"/>
+      </ownedRule>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_UVASsMKmEeW0rOiSIwms-Q" name="endpoint">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_UVASscKmEeW0rOiSIwms-Q">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_UVASssKmEeW0rOiSIwms-Q" value="number,protocol,callrate"/>
+        </ownedParameter>
+      </ownedOperation>
+      <region xmi:type="uml:Region" xmi:id="_miYRsLMGEeWrGJPtcLKCBQ" name="Region1">
+        <transition xmi:type="uml:Transition" xmi:id="_oUvAILMGEeWrGJPtcLKCBQ" name="AT1" source="_m_YWwLMGEeWrGJPtcLKCBQ" target="_nVdUcLMGEeWrGJPtcLKCBQ">
+          <ownedRule xmi:type="uml:Constraint" xmi:id="_sLLtQLMGEeWrGJPtcLKCBQ" name="1">
+            <specification xmi:type="uml:LiteralString" xmi:id="_zJKMALMGEeWrGJPtcLKCBQ" value="&lt;&lt;Pointcut>>name=&quot;SelectTransitionsPointcut&quot;,type=SelectionType::Subset,selectionConstraint=&quot;Context uml::Transition self.trigger->collec(event|event.name='dial')&quot;,aroundAdvice=&quot;ChangeTriggerAroundAdvice&quot;"/>
+          </ownedRule>
+          <ownedRule xmi:type="uml:Constraint" xmi:id="_22NskLMGEeWrGJPtcLKCBQ" name="2">
+            <specification xmi:type="uml:LiteralString" xmi:id="_PC1ooLMHEeWrGJPtcLKCBQ" value="&lt;&lt;Around>>name=&quot;ChangeTriggerAroundAdvice&quot;,constraint=&quot;endpoint&quot;"/>
+          </ownedRule>
+          <trigger xmi:type="uml:Trigger" xmi:id="_Ur6W0MKmEeW0rOiSIwms-Q" event="_UcmIcMKmEeW0rOiSIwms-Q"/>
+        </transition>
+        <subvertex xmi:type="uml:State" xmi:id="_m_YWwLMGEeWrGJPtcLKCBQ" name="State1">
+          <ownedRule xmi:type="uml:Constraint" xmi:id="_BKJtQLooEeWSTusTBpn_TQ" name="Constraint1">
+            <specification xmi:type="uml:LiteralString" xmi:id="_KAteQLooEeWSTusTBpn_TQ" value="&lt;&lt;Pointcut>>name=&quot;SelectSourceStatesofTransition&quot;,type=SelectionType::Subset,selectionConstraint=&quot;Context uml::Vertex self.outgoing->collec(trigger|trigger.event.name='dial')&quot;"/>
+          </ownedRule>
+        </subvertex>
+        <subvertex xmi:type="uml:State" xmi:id="_nVdUcLMGEeWrGJPtcLKCBQ" name="State2">
+          <ownedRule xmi:type="uml:Constraint" xmi:id="_ATqxMLooEeWSTusTBpn_TQ" name="Constraint1">
+            <specification xmi:type="uml:LiteralString" xmi:id="_l8o9oLooEeWSTusTBpn_TQ" value="&lt;&lt;Pointcut>>name=&quot;TriggerTargetStatesPointcut&quot;,type=SelectionType::Subset,selectionConstraint=&quot;Context uml::Vertex self.incoming->collec(trigger|trigger.event.name='dial')&quot;"/>
+          </ownedRule>
+        </subvertex>
+      </region>
+    </packagedElement>
+    <packagedElement xmi:type="uml:CallEvent" xmi:id="_UcmIcMKmEeW0rOiSIwms-Q" operation="_UVASsMKmEeW0rOiSIwms-Q"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_mq4bgLMIEeWrGJPtcLKCBQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mrffgLMIEeWrGJPtcLKCBQ" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mrffgbMIEeWrGJPtcLKCBQ" key="Version" value="0.0.4"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mrffgrMIEeWrGJPtcLKCBQ" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mrffg7MIEeWrGJPtcLKCBQ" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mrffhLMIEeWrGJPtcLKCBQ" key="Date" value="2015-12-31"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mrffhbMIEeWrGJPtcLKCBQ" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mre4cLMIEeWrGJPtcLKCBQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="../Profile/model.profile.uml#_JKvO4K-8EeWRDpfAbbYhPA"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="../Profile/model.profile.uml#_FB9QQK16EeWCvpWBgsf40A"/>
+    </profileApplication>
+  </uml:Model>
+  <Profile:Pointcut xmi:id="_oG1cILMIEeWrGJPtcLKCBQ" base_State="_m_YWwLMGEeWrGJPtcLKCBQ"/>
+  <Profile:Pointcut xmi:id="_o6GsILMIEeWrGJPtcLKCBQ" base_State="_nVdUcLMGEeWrGJPtcLKCBQ"/>
+  <Profile:Pointcut xmi:id="_qn31gLMIEeWrGJPtcLKCBQ" base_Transition="_oUvAILMGEeWrGJPtcLKCBQ"/>
+  <Profile:Aspect xmi:id="_lpWqAL2xEeWB5q7eYvojvQ" base_StateMachine="_mh7lwLMGEeWrGJPtcLKCBQ"/>
+  <Profile:Around xmi:id="_JC2pAMKmEeW0rOiSIwms-Q" base_Transition="_oUvAILMGEeWrGJPtcLKCBQ"/>
+</xmi:XMI>

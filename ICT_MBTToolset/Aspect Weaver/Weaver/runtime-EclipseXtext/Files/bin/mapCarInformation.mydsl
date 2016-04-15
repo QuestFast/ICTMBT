@@ -1,0 +1,10 @@
+mapping mapCarInformation
+{
+	let T->{S,A}: 	
+	{
+		ExistingRentalDuration :: duration() : RentalDuration ->
+					{ RentalDuration, ExistingRentalDuration:: durationName },
+		ExistingPerformanceIndicator:: perfInd() : PerformanceIndicator ->
+			{ PerformanceIndicator, ExistingPerformanceIndicator:: name }
+	}
+}

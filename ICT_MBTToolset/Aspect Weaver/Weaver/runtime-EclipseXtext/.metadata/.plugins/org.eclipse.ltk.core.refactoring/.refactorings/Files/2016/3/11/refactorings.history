@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 8 elements from project &apos;Files&apos;&#x0D;&#x0A;- Original project: &apos;Files&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Aspect.mydsl&#x0D;&#x0A;     InitialFile.txt&#x0D;&#x0A;     mapBalance.mydsl&#x0D;&#x0A;     mapCarMaintenance.mydsl&#x0D;&#x0A;     mapCarTransferRequest.mydsl&#x0D;&#x0A;     mapIDisKey.mydsl&#x0D;&#x0A;     mapIDisKey.txt&#x0D;&#x0A;     mapUniquenessConstraint.mydsl" description="Delete elements" element1="src/mapIDisKey.txt" element2="src/mapBalance.mydsl" element3="src/mapCarTransferRequest.mydsl" element4="src/Aspect.mydsl" element5="src/mapUniquenessConstraint.mydsl" element6="src/mapIDisKey.mydsl" element7="src/mapCarMaintenance.mydsl" element8="src/InitialFile.txt" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="8" stamp="1457794217103" subPackages="false" version="1.0"/>
+</session>

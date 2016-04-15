@@ -1,0 +1,28 @@
+context ExistingCar::car() : Car
+post :
+let CarVal: set( Car)= Car.allInstances()-> select(c|c.Car::registrationNumber = self. ExistingCar::regNumber)in  CarVal ->notEmpty() implies result= CarVal ->any()
+
+
+context ExistingCarGroup::carG() : CarGroup
+post :
+let CarVal: set(CarGroup)=CarGroup.allInstances()-> select(c|c.CarGroup::name = self.ExistingCarGroup::carGroup)in  CarVal ->notEmpty() implies result= CarVal ->any()
+
+
+context ExistingCarModel::carM() : CarModel
+post :
+let CarVal: set(CarModel)=CarModel.allInstances()-> select(c|c.CarModel::name = self.ExistingCarModel::carModel)in  CarVal ->notEmpty() implies result= CarVal ->any()
+
+
+context ExistingDiscount::discount() : Discount
+post :
+let CarVal: set(Discount)=Discount.allInstances()-> select(c|c.Discount::name = self.ExistingDiscount::discountName)in  CarVal ->notEmpty() implies result= CarVal ->any()
+
+
+context ExistingRentalDuration::duration() : RentalDuration
+post :
+let CarVal: set(RentalDuration)=RentalDuration.allInstances()-> select(c|c.RentalDuration::name = self. ExistingRentalDuration::durationName)in  CarVal ->notEmpty() implies result= CarVal ->any()
+
+
+context ExistingPerformanceIndicator::prefInd() : PerformanceIndicator
+post :
+let CarVal: set(PerformanceIndicator)=PerformanceIndicator.allInstances()-> select(c|c.PerformanceIndicator::name = self. ExistingPerformanceIndicator::name)in  CarVal ->notEmpty() implies result= CarVal ->any()

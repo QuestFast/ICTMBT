@@ -1,0 +1,13 @@
+context Branch::nameIskey():Boolean
+
+context BranchType::nameIskey():Boolean
+
+context Country::nameIskey():Boolean
+
+context PerformanceIndicator::nameIskey():Boolean
+
+context ServiceDepot::nameIskey():Boolean
+
+context CarModel::nameIskey():Boolean
+
+context CarGroup::nameIskey():Boolean
